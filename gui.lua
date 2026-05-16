@@ -1194,7 +1194,7 @@ G2L["7c"]["BackgroundTransparency"] = 1;
 G2L["7c"]["AnchorPoint"] = Vector2.new(0, 0.5);
 G2L["7c"]["Size"] = UDim2.new(0.96995, 0, 0.60123, 0);
 G2L["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7c"]["Text"] = [[Have you dreamed of every looking like a Fashion Goddess? Well, seize the chance now, with this spoofer, you can visually look like a Fashion Goddess!]];
+G2L["7c"]["Text"] = [[Have you dreamed of every looking like a Fashion Goddess? Well, seize te chance now, with this spoofer, you can visually look like a Fashion Goddess!]];
 G2L["7c"]["Name"] = [[AnimName]];
 G2L["7c"]["Position"] = UDim2.new(0.0145, 0, 0.67757, 0);
 
@@ -1828,9 +1828,10 @@ task.spawn(C_78);
 local function C_86()
 local script = G2L["86"];
 	script.Parent.MouseButton1Click:Connect(function() 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/easea-exploits/boutiqueFarm/refs/heads/main/boutique_Farm.lua"))()	
-		notifCont:Notify("The script has loaded. Please don't click it again to prevent bugs!")
+	    notifCont:Notify("The script has loaded. Please don't click it again to prevent bugs!")
 		newComputer_Click:Play()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/easea-exploits/boutiqueFarm/refs/heads/main/boutique_Farm.lua"))()	
+		
 	end)
 end;
 task.spawn(C_86);
